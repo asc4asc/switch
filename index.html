@@ -21,14 +21,17 @@
 test me please: <p id="demo"></p>
     
 <script>
-
-let i=1, s="";
-for (i=0; i<10; i++) {   
-  s = "Hello JavaS"+i+"<br>"+s; 
-  document.getElementById("demo").innerHTML = s;
-  console.log("Hello JavaScript!",i,"\n");
-}
+let expr=butt1;  
     
+switch (expr) {
+  case 'butt1':
+    s = "Hello JavaS"+expr+"<br>"+s; 
+    document.getElementById("demo").innerHTML = s;
+    console.log("Hello JavaScript!",expr,"\n");
+    break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
+}  
 </script> 
     
 </body>

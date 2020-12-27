@@ -25,12 +25,12 @@ let s="", expr="butt1";
         
 switch (expr) {
   case 'butt1':
-    s = 'Hello JavaS '+$expr+'<br>'+s; 
+    s = 'Hello JavaS '+expr+'<br>'+s; 
     document.getElementById("demo").innerHTML = s;
     console.log('Hello JavaScript! ${expr}',"\n");
     break;
   default:
-    s = 'Hello JavaS '+$expr+'<br>'+s; 
+    s = 'Hello JavaS '+expr+'<br>'+s; 
     document.getElementById("demo").innerHTML = s;    
     console.log(`Sorry, we are out of ${expr}.`);
 }  
